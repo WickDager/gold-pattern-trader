@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# Environment and virtualenv
+.venv/
+venv/
+env/
+.env
+*.env.local
+
+# Logs
+*.log
+*.csv
+
+# Configuration (sensitive)
+config/trading_accounts.json
+!config/trading_accounts.json.example
+
+# IDE
+.idea/
+*.swp
+*.swo
+*~
+.vscode/
+.vs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sierra Chart
+*.dll
+
+# Jupyter notebooks (if any)
+.ipynb_checkpoints/
+
+# Distribution
+*.whl
+*.tar.gz
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# pytest
+.pytest_cache/

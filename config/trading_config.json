@@ -1,0 +1,27 @@
+{
+    "data_file_path": "C:/trading_bot/Live_Gold_Data.csv",
+    "log_file": "trading_bot.log",
+    "pattern_expiry_hours": 4,
+    "max_patterns_per_type": 1,
+    "divergence_tolerance": 4,
+    "trading_start_hour": 3,
+    "trading_end_hour": 18,
+    "data_refresh_seconds": 10,
+    "cleanup_interval_minutes": 30,
+    "status_update_minutes": 1,
+    "connection_check_seconds": 60,
+    "max_reconnect_attempts": 5,
+    "min_equity": 100,
+    "symbol_variations": [
+        "XAUUSD", "GOLD", "GOLD.", "XAU/USD", "XAUUSD.", "XAUUSDC",
+        "XAUUSD.c", "XAUUSD.raw", "XAUUSD-", "XAUUSD#", "XAUUSD.a",
+        "XAUUSD.e", "XAUUSD.m", "XAUUSD.i", "XAUUSDX", "XAUUSD.std",
+        "XAUUSD.ecn", "XAUUSD.pro", "XAUUSD-Z", "XAUUSD-z", "XAUUSD!",
+        "XAUUSD_", "XAUUSD.mini", "XAUUSD.n", "XAUUSD+", "XAUUSD_USD",
+        "XAUUSD.sx", "XAUUSD.lmx", "XAUUSD.bbo", "XAUUSD1", "XAUUSD.opt",
+        "XAUUSDT", "XAUUSD...", "XAUUSD?"
+    ],
+    "breakeven_adr_multiplier": 1.0,
+    "max_spread_points": 50,
+    "symbol_override": ""
+}

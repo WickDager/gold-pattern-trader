@@ -1,0 +1,11 @@
+{
+    "accounts": {
+        "12345678": {
+            "password": "YOUR_PASSWORD",
+            "server": "YOUR_BROKER_SERVER",
+            "risk_percentage": 0.1,
+            "tp_multiplier": 5.0,
+            "sl_multiplier": 1.0
+        }
+    }
+}

@@ -1,0 +1,1 @@
+"""Gold Pattern Trader package."""
